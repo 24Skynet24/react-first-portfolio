@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Manrope", serif;
+    color: rgb(0, 0, 0);
 }
 
 html, body {
@@ -27,3 +28,30 @@ a, button {
 a {
     text-decoration: none;
 }
+
+
+.d-flex {
+    display: flex;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
