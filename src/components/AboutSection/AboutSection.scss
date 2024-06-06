@@ -1,0 +1,45 @@
+section.about {
+  padding: 17.5rem 0 18rem;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.section_title {
+  margin-bottom: 8.2rem;
+}
+
+.about_card {
+  padding: 0 10.5rem 0 7.8rem;
+  margin-bottom: 7.4rem;
+
+  img {
+    width: 19.8rem;
+    height: 19.8rem;
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+  }
+
+  .about_txt {
+    width: 70%;
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 400;
+      margin-bottom: 1.3rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 170%;
+    }
+  }
+}
+
+.skills_box {
+  margin-bottom: 6.3rem;
+}
+
+.experience_box {
+  align-items: flex-start;
+}
+
