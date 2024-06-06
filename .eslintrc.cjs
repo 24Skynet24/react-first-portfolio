@@ -17,5 +17,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "react/prop-types": "off",
+    'react/jsx-key': [1, { checkFragmentShorthand: true }],
   },
 }
