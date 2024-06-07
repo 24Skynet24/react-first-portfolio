@@ -6,8 +6,8 @@ import "./ProjectsSection.scss"
 
 import projectItems from "../../data/projectItems";
 
-const projectCards = projectItems.map(card => {
-    return <ProjectCard {...card}/>
+const projectCards = projectItems.map((card, id) => {
+    return <ProjectCard {...card} key={id}/>
 })
 
 export default function ProjectsSection() {

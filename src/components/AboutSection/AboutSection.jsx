@@ -8,11 +8,11 @@ import "./AboutSection.scss"
 import skillItems from "../../data/skillItems";
 import exItems from "../../data/exItems";
 
-const skillsEl = skillItems.map(skill => {
-    return <SkillItem {...skill}/>
+const skillsEl = skillItems.map((skill, id) => {
+    return <SkillItem {...skill} key={id}/>
 })
-const exEl = exItems.map(ex => {
-    return <ExperienceItem {...ex}/>
+const exEl = exItems.map((ex, id) => {
+    return <ExperienceItem {...ex} key={id}/>
 })
 
 export default function AboutSection() {

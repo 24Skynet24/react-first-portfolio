@@ -6,8 +6,8 @@ function CardTitle({title, subTitle = null}) {
 }
 
 export default function ProjectCard({ img, alt, skills = [], title, subTitle, txt, link }) {
-    const skillsEl = skills.map(skill => {
-        return <span className="skill_item"> {skill} </span>
+    const skillsEl = skills.map((skill, id) => {
+        return <span key={id} className="skill_item"> {skill} </span>
     })
 
     return (

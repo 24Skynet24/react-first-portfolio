@@ -1,8 +1,8 @@
 import "./ExperienceItem.scss"
 
 export default function ExperienceItem({ title = "", list = [] }) {
-    const exList = list.map(i => {
-        return <li>{i}</li>
+    const exList = list.map((i, id) => {
+        return <li key={id}>{i}</li>
     })
 
     return (
