@@ -1,0 +1,21 @@
+footer {
+  padding: 0 0 5.7rem;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    span, strong {
+      font-size: 1.2rem;
+      color: rgb(128, 128, 128);
+    }
+
+    span {
+      font-weight: 300;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,5 +1,16 @@
 header.header {
   padding: 5.7rem 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: rgb(255, 255, 255);
+  z-index: 2;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .home_link {
