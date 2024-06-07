@@ -9,12 +9,14 @@ function App() {
 
   return (
     <>
-        <Header/>
-        <HomeSection/>
-        <AboutSection/>
-        <ProjectsSection/>
-        <ContactsSection/>
-        <Footer/>
+        <main>
+            <Header/>
+            <HomeSection/>
+            <AboutSection/>
+            <ProjectsSection/>
+            <ContactsSection/>
+            <Footer/>
+        </main>
     </>
   )
 }
