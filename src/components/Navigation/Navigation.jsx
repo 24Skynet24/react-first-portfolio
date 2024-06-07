@@ -4,9 +4,9 @@ export default function Navigation() {
     return (
         <>
             <nav className="flex-align-center">
-                <a href="#" className="link">about me</a>
-                <a href="#" className="link">projects</a>
-                <a href="#" className="link">contact</a>
+                <a href="#about" className="link">about me</a>
+                <a href="#projects" className="link">projects</a>
+                <a href="#contacts" className="link">contacts</a>
             </nav>
         </>
     )

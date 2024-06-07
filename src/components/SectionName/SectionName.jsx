@@ -1,9 +1,9 @@
 import "./SectionName.scss"
 
-export default function SectionName({ children, nameId }) {
+export default function SectionName({ children }) {
     return (
         <>
-            <h2 id={nameId}>{ children }</h2>
+            <h2>{ children }</h2>
         </>
     )
 }

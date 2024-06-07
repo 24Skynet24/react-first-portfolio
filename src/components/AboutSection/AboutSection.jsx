@@ -18,10 +18,10 @@ const exEl = exItems.map((ex, id) => {
 export default function AboutSection() {
     return (
         <>
-            <section className="about">
+            <section className="about" id="about">
                 <Container>
                     <div className="section_title">
-                        <SectionName nameId="about">about me</SectionName>
+                        <SectionName>about me</SectionName>
                     </div>
 
                     <article className="about_card flex-align-center flex-between">

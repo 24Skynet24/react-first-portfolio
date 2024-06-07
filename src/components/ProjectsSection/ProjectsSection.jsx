@@ -13,10 +13,10 @@ const projectCards = projectItems.map((card, id) => {
 export default function ProjectsSection() {
     return (
         <>
-            <section className="projects">
+            <section className="projects" id="projects">
                 <Container>
                     <div className="flex_end">
-                        <SectionName nameId="projects">personal projects</SectionName>
+                        <SectionName>personal projects</SectionName>
                     </div>
                     <div className="flex_wrap flex-between">
                         { projectCards }

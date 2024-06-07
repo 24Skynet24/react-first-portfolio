@@ -6,10 +6,10 @@ import "./ContactsSection.scss"
 export default function ContactsSection() {
     return (
         <>
-            <section className="contacts">
+            <section className="contacts" id="contacts">
                 <Container>
                     <div className="flex-center">
-                        <SectionName nameId="contact">contact me</SectionName>
+                        <SectionName>contact me</SectionName>
                     </div>
 
                     <div className="contacts_links flex-center">
