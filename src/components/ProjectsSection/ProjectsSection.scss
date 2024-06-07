@@ -6,6 +6,11 @@ section.projects {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+
+    h2::after {
+      right: 0;
+      left: auto;
+    }
   }
 
   .flex_wrap {
