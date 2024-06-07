@@ -1,0 +1,16 @@
+section.projects {
+  padding: 15.3rem 0;
+
+  .flex_end {
+    margin-bottom: 8.2rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .flex_wrap {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 7.7rem 0;
+  }
+}
