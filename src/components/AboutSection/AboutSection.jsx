@@ -21,7 +21,7 @@ export default function AboutSection() {
             <section className="about">
                 <Container>
                     <div className="section_title">
-                        <SectionName>about me</SectionName>
+                        <SectionName nameId="about">about me</SectionName>
                     </div>
 
                     <article className="about_card flex-align-center flex-between">

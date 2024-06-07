@@ -16,7 +16,7 @@ export default function ProjectsSection() {
             <section className="projects">
                 <Container>
                     <div className="flex_end">
-                        <SectionName>personal projects</SectionName>
+                        <SectionName nameId="projects">personal projects</SectionName>
                     </div>
                     <div className="flex_wrap flex-between">
                         { projectCards }
