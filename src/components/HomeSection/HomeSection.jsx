@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 export default function HomeSection() {
     return (
         <>
-            <section className="home flex-center">
+            <section className="home flex_center">
                 <h1>
                     <ReactTyped
                         strings={["front-end developer"]}

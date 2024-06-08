@@ -3,7 +3,7 @@ import "./SkillItem.scss"
 export default function SkillItem({ title = "", txt = "", alt = "", img }) {
     return (
         <>
-            <article className="skill_item flex-align-center">
+            <article className="skill_item flex_align_center">
                 <div className="icon_block">
                     <img src={ img } alt={ alt } />
                 </div>
