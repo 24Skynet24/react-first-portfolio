@@ -31,26 +31,21 @@ a {
 }
 
 
-.d-flex {
+.d_flex {
     display: flex;
 }
 
-.flex-align-center {
+.flex_align_center {
     display: flex;
     align-items: center;
 }
 
-.flex-between {
+.flex_between {
     display: flex;
     justify-content: space-between;
 }
 
-.flex-justify-center {
-    display: flex;
-    justify-content: center;
-}
-
-.flex-center {
+.flex_center {
     display: flex;
     align-items: center;
     justify-content: center;

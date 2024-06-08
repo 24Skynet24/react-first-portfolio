@@ -12,10 +12,10 @@ export default function ProjectCard({ img, alt, skills = [], title, subTitle, tx
 
     return (
         <>
-            <article className="project_card d-flex">
-                <div className="img_box flex-center">
+            <article className="project_card d_flex">
+                <div className="img_box flex_center">
                     <img src={ img } alt={ alt }/>
-                    <div className="img_gox_skills flex-align-center">
+                    <div className="img_gox_skills flex_align_center">
                         { skillsEl }
                     </div>
                 </div>

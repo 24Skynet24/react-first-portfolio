@@ -24,7 +24,7 @@ export default function AboutSection() {
                         <SectionName>about me</SectionName>
                     </div>
 
-                    <article className="about_card flex-align-center flex-between">
+                    <article className="about_card flex_align_center flex_between">
                         <img src={userImg} alt="User"/>
                         <div className="about_txt">
                             <h3>Albert Mnatsakanian</h3>
@@ -37,11 +37,11 @@ export default function AboutSection() {
                         </div>
                     </article>
 
-                    <div className="skills_box flex-between flex-align-center">
+                    <div className="skills_box flex_between flex_align_center">
                         { skillsEl }
                     </div>
 
-                    <div className="experience_box flex-between">
+                    <div className="experience_box flex_between">
                         { exEl }
                     </div>
                 </Container>
